@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ownskinloader",
+  "version": "${version}",
+  "name": "OwnSkinLoader",
+  "description": "Load players' own skin on an offline mode server.",
+  "authors": [
+    "Tarcadia"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/ownskinloader/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tarcadia.minecraft.ownskinloader.OwnSkinLoader"
+    ]
+  },
+  "mixins": [
+    "ownskinloader.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
