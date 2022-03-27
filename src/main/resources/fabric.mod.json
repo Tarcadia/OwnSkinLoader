@@ -10,7 +10,7 @@
   "contact": {},
   "license": "GPL-3.0",
   "icon": "assets/ownskinloader/icon.png",
-  "environment": "*",
+  "environment": "server",
   "entrypoints": {
     "main": [
       "net.tarcadia.minecraft.ownskinloader.OwnSkinLoader"
@@ -21,7 +21,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.13.3",
-    "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }
