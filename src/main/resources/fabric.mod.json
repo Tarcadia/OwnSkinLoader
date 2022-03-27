@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ownskinloader",
-  "version": "1.0",
+  "version": "${version}",
   "name": "OwnSkinLoader",
   "description": "Load players' own skin on an offline mode server.",
   "authors": [
