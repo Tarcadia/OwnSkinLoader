@@ -12,6 +12,6 @@ public class OwnSkinLoader implements ModInitializer {
      */
     @Override
     public void onInitialize() {
-        LOGGER.info("OwnSkinLoader loaded.");
+        LOGGER.info("OwnSkinLoader version ${version} loaded.");
     }
 }
